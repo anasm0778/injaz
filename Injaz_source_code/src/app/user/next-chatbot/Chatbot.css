@@ -1,0 +1,19 @@
+.fBGGBn {
+  height: 269px !important;
+}
+
+.dPdbIW {
+  border-radius: 0px !important;
+  width: 320px !important;
+}
+
+.next_chatbot {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+  color: #6e48aa;
+  font-size: 0px;
+  width: 4%;
+  box-shadow: 0 1.25em 2.18em rgba(0, 0, 0, 0.3);
+}

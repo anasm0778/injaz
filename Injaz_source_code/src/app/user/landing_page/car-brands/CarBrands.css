@@ -1,0 +1,10 @@
+.car_brands_heading h2 {
+    text-align: center !important;
+    border-bottom: 1px dotted gray !important;
+}
+
+.car_brand_text p{
+    text-align: center !important;
+    font-size: 16px !important;
+    font-family: sans-serif !important;
+}

@@ -1,0 +1,120 @@
+.adm_loc_data_table {
+    display: flex;
+    align-items: center;
+}
+
+.adm_loc_table_text {
+    width: 100%;
+}
+
+.adm_loc_table_btn {
+    width: 100%;
+    text-align: right;
+}
+
+.magcatbtn {
+    margin: 30px 0px;
+}
+
+.catsubmitbtn {
+    margin-right: 20px !important;
+}
+
+.catecontbox {
+    border: 1px solid #dee1e6;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.mancat_main {
+    background-color: #f1f3f4;
+    height: 100vh;
+}
+
+/* *************addnewCat.css*************** */
+.newcate_head h1 {
+    border-bottom: 2px solid #f1f3f4;
+    padding-bottom: 10px;
+}
+
+.newcate_head {
+    padding: 20px 0px;
+    border-bottom: 2px solid #f1f3f4;
+}
+
+/* **************** Phone and Email ****************** */
+.phemailBtn {
+    padding: 0px 25px;
+}
+
+.editphemail h3 {
+    margin: 0px;
+}
+
+.showphEmail {
+    margin: 30px 0px;
+}
+
+/* ********** Web settings************* */
+.editphemail {
+    display: flex;
+    align-items: center;
+    background-color: #1976d261;
+    border-radius: 5px;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin: 15px 0px;
+    padding: 0px 25px;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* .table-container th, .table-container td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+    color: white;
+    font-weight: 400;
+} */
+
+.tableTR {
+    background-color: #1976d2;
+}
+.tableTR-2 {
+    background-color: #d3e3fd;
+}
+
+.tableTH {
+    padding: 8px 30px;
+    text-align: left;
+    border: 1px solid #1976d2;
+    color: white;
+    font-weight: 400;
+}
+.tableTD {
+    padding: 8px 30px;
+    text-align: left;
+    border: 1px solid #1976d2;
+    color: black;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 600px) {
+    .table-container th, .table-container td {
+        padding: 6px;
+    }
+}
+
+.phemailhead h2 {
+    margin: 0px;
+    padding: 10px 25px;
+    background: #1976d2;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}

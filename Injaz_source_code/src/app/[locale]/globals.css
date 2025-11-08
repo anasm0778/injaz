@@ -1,0 +1,365 @@
+@media (max-width: 767px) {
+
+    /* Adjust the max-width as needed for your specific mobile devices */
+    .simple-image-slider-container {
+        height: 14vh !important;
+        /* Using !important to override inline styles if necessary */
+    }
+}
+
+
+
+/* Global Car Card Enhancements */
+.car-card-enhanced {
+    position: relative !important;
+    overflow: visible !important;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    border: 3px solid #ffd700 !important;
+    border-radius: 20px !important;
+    background: #ffffff !important;
+    height: 700px !important;
+    padding: 20px !important;
+    margin-bottom: 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.car-card-enhanced:hover {
+    transform: translateY(-8px) scale(1.02) !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15), 0 0 30px rgba(255, 215, 0, 0.3) !important;
+    border-color: #fbbf24 !important;
+}
+
+@media screen and (max-width: 600px) {
+
+    /* ================== car cards=============== */
+    .carInfoPara {
+        font-size: 12px !important;
+    }
+
+    .car_prices_child {
+        font-size: 12px !important;
+    }
+
+    .actualPriceChild {
+        font-size: 13px !important;
+    }
+
+    .car_KM_child {
+        font-size: 12px !important;
+    }
+
+
+    /* =======================Top bar================== */
+    .top_Bar_section {
+        display: block !important;
+    }
+
+    .top_email_n {
+        display: none !important;
+    }
+
+    .top_bar_icon {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .top_email_n {
+        width: 100% !important;
+    }
+
+
+    /* ===================== Navbar ===================== */
+    .signLog_btn {
+        padding: 5px 10px !important;
+        display: none !important;
+    }
+
+    /* ================== Chatbot ====================== */
+    .next_chatbot {
+        width: 13% !important;
+        position: fixed !important;
+        bottom: 50px !important;
+        right: 15px !important;
+    }
+
+    .header_links {
+        width: 100% !important;
+        justify-content: end !important;
+    }
+
+}
+
+.carousel .control-prev.control-arrow:before {
+    border-right: 15px solid black !important;
+
+}
+
+.carousel .control-next.control-arrow:before {
+    border-left: 15px solid black !important;
+}
+
+/* .carousel .slide {
+    height: 480px !important;
+} */
+.carouselHeight .carousel .slide {
+    height: 520px !important;
+}
+
+/* .carsCardsSection {
+    background-color: #eceff7;
+} */
+
+.carousel.carousel-slider .control-arrow:hover {
+    background: transparent !important;
+}
+
+.carousel.carousel-slider .control-arrow {
+    margin-left: -7px !important;
+}
+
+.carBoxShadow .css-1ri6ub7-MuiPaper-root-MuiCard-root {
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 3px 0px rgba(0, 0, 0, 1.12) !important;
+}
+
+
+.loader {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.car__body {
+    animation: shake 0.1s ease-in-out infinite alternate;
+}
+
+.car__line {
+    transform-origin: center right;
+    stroke-dasharray: 22;
+    animation: line 0.5s ease-in-out infinite;
+    animation-fill-mode: both;
+}
+
+.car__line--top {
+    animation-delay: 0s;
+}
+
+.car__line--middle {
+    animation-delay: 0.2s;
+}
+
+.car__line--bottom {
+    animation-delay: 0.4s;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateY(-1%);
+    }
+
+    100% {
+        transform: translateY(3%);
+    }
+}
+
+@keyframes line {
+    0% {
+        stroke-dashoffset: 22;
+    }
+
+    25% {
+        stroke-dashoffset: 22;
+    }
+
+    50% {
+        stroke-dashoffset: 0;
+    }
+
+    51% {
+        stroke-dashoffset: 0;
+    }
+
+    80% {
+        stroke-dashoffset: -22;
+    }
+
+    100% {
+        stroke-dashoffset: -22;
+    }
+}
+
+
+.list_item_text .css-10hburv-MuiTypography-root {
+    font-size: 12px !important;
+}
+
+.list_item_text {
+    padding: 5px 7px !important;
+}
+
+.list_item_tex .css-yb0lig {
+    font-size: 12px !important;
+}
+
+/* **************** Page Not Found *********** */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hide horizontal scrollbar */
+html {
+    overflow-x: hidden;
+}
+
+.notFound {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.wrapper h2 {
+    margin: 40px 0;
+    font-size: 2.5rem;
+}
+
+.wrapper img {
+    width: 600px;
+    max-width: 75%;
+}
+
+.wrapper h4 {
+    margin: 40px 0 20px;
+    font-size: 1.2rem;
+}
+
+.main-btn {
+    padding: 15px;
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+@media (max-width:767px) {
+    .wrapper h2 {
+        font-size: 2rem;
+    }
+
+    .wrapper h4 {
+        font-size: 1rem;
+    }
+}
+
+.drawerImg {
+    padding-top: 10px;
+    width: 100%;
+}
+
+.navLogoIMG {
+    padding-top: 10px;
+}
+
+.companyOver {
+    width: 100%;
+}
+
+/* ===============whatsp icon ===================== */
+
+/* .wts-icon {
+
+} */
+.whts-btn {
+    box-shadow: 0 0 20px #eee !important;
+    border-radius: 10px !important;
+    font-size: 12px !important;
+    text-transform: capitalize !important;
+    background-color: #0bd10b !important;
+}
+
+/* ======================= car cards =============== */
+.car_brand_text {
+    margin: 15px 0px;
+}
+
+/* ================ Document required ======================= */
+.req_para {
+    margin-top: 15px;
+}
+
+.reqDocImageTag {
+    width: 200px;
+    height: 150px;
+    /* Default height */
+}
+
+@media (min-width: 768px) {
+    .reqDocImageTag {
+        height: 200px;
+        /* Height for medium-sized screens and up */
+    }
+}
+
+/* =========== How it works ==================== */
+
+section.howItWorks {
+    margin: 30px 0px;
+}
+
+/* ================Cheapest Batch ========== */
+.cheapestBatch {
+    /* background-image: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%); */
+    color: black !important;
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
+
+/* ================ booking Screen ================================================================= */
+
+section.bookingScreen {
+    margin-top: 1.5rem;
+}
+
+.locInfoMain {
+    border: 2px solid #01437d;
+}
+
+.package_span {
+    color: green;
+    margin-left: 5px;
+}
+
+.phoneNumberField {
+    width: 100% !important;
+}
+
+.phoneNumberField .react-tel-input .form-control {
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+}
+
+.phoneNumberField .react-tel-input .flag-dropdown {
+    border: 0px;
+    border-radius: 0px;
+}

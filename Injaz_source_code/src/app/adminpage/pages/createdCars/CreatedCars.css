@@ -1,0 +1,88 @@
+.imageHead h3,
+.carSpecHead h3,
+.carDescHead h3,
+.CarDetHead h3,
+.carFeatHead h3,
+.CarReqHead h3 {
+    text-align: center;
+    background-color: #01437d;
+    padding: 5px 0px;
+    font-weight: 400;
+    color: white;
+}
+
+.createdCarsTop,
+.createdCarSpec,
+.createdCarDesc,
+.createdCarDetails,
+.createdCarFeatuers,
+.createdCarRequirements {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    
+}
+
+.carSpecMain {
+    padding: 0px 15px;
+}
+
+.carSpecMain p {
+    margin: 0px;
+    font-size: 13px;
+    padding: 4px 0px;
+}
+
+.carDescContent p {
+    text-align: justify;
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.carDetMain p,
+.carFeatMain p,
+.carReqMain p {
+    margin: 0px;
+    color: black;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.carDetMain,
+.carFeatMain,
+.carReqMain {
+    padding: 10px 15px;
+}
+
+.carReqMain h5 {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+.tourResReq {
+    padding-top: 15px;
+}
+
+.dynamicData {
+    color: black;
+    font-weight: 500;
+}
+
+.dynamicDataTwo {
+    color: black;
+    font-weight: 600;
+}
+
+section.createdCars {
+    margin: 1rem 0rem;
+}
+
+/* .detFeatReq {
+    margin: 1rem 0rem;
+} */
+
+.descMain {
+    margin: 1rem 0rem;
+}

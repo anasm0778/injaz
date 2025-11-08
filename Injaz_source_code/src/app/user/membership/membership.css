@@ -1,0 +1,196 @@
+/* ==================== Top section of membership ========================= */
+
+.topSecHead h1 {
+    font-family: system-ui;
+    font-size: 2em;
+    margin: 15px 0px;
+    font-weight: 700;
+    color: #01437d;
+    text-align: left;
+    display: block;
+}
+
+.topSecHead p {
+    font-size: 18px;
+    font-family: system-ui;
+    font-weight: 400;
+    color: #000;
+    padding: 0;
+    line-height: 34px;
+    margin-top: 30px;
+}
+
+/* ==================== Icon section of membership ========================= */
+
+.iconMain {
+    text-align: center;
+    align-items: center;
+}
+
+section.iconSecMem {
+    padding: 3em 0em;
+    background-color: #01437d9e;
+}
+
+.iconMain h5 {
+    text-align: center;
+    color: #500788;
+    font-size: 13pt;
+    line-height: 12.26pt;
+    display: block;
+    font-weight: bold;
+    margin-top: 1.4em;
+    margin-bottom: 0px;
+}
+
+/* ==================== Family section of membership ========================= */
+
+
+.famSecMainhead h1 {
+    font-family: system-ui;
+    font-size: 2em;
+    margin: 15px 0px;
+    font-weight: 700;
+    color: #01437d;
+    text-align: left;
+    display: block;
+}
+
+.famLeftPara p {
+    color: #6d6e70;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 0px;
+    min-height: 100px;
+    padding: 0em 0em;
+    text-align: justify;
+}
+
+/* ==================== Tab section of membership ========================= */
+
+
+.firstTab h4 {
+    font-weight: bold;
+    color: #666;
+    margin: 0;
+    font-size: 1.2rem;
+    margin-bottom: 13px;
+}
+
+.secondTab h4 {
+    font-weight: bold;
+    color: #666;
+    margin: 0;
+    font-size: 1.2rem;
+    margin-bottom: 13px;
+}
+
+
+.firstTab p {
+    color: #6d6e70;
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.secondTab p,
+li {
+    color: #6d6e70;
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.secondTab li {
+    color: #6d6e70;
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 0px;
+    text-align: justify;
+}
+
+.secondTab ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.secTabPara {
+    margin: 0px;
+    font-size: 8px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: #6d6e70;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+/* ==================== Platinum section of membership ========================= */
+
+.platSecMem h1 {
+    text-align: center;
+    margin: 0;
+}
+
+
+.spanWord {
+    font-weight: bold;
+    color: #01437d;
+}
+
+.platLeft p {
+    color: black;
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.platRight p {
+    color: black;
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.platSecMain {
+    background-color: silver;
+    display: block;
+}
+.goldSecMain {
+    background-color: #ffff769c;
+    display: block;
+}
+.silverSecMain {
+    background-color: #c0c0c0;
+    display: block;
+}
+
+.platSecHead {
+    background-color: #c0c0c070;
+    padding: 20px 0px;
+    margin-bottom: 32px;;
+}
+.goldSecHead {
+    background-color: #fdd42e6e;
+    padding: 20px 0px;
+    margin-bottom: 32px;;
+}
+.silverSecHead {
+    background-color: #e3e3e3;
+    padding: 20px 0px;
+    margin-bottom: 32px;;
+}

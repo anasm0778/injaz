@@ -1,0 +1,208 @@
+.card_section {
+    margin: 15px 0px;
+}
+
+.card_heading {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.car_cat_text {
+    text-align: center !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+}
+
+.car_card {
+    cursor: pointer !important;
+    transition: all 0.4s ease-in-out !important;
+    background: linear-gradient(180deg, #011b2ade 0%, #011b2a8a 100%) !important;
+    border: 3px solid #ffd700 !important;
+    border-radius: 15px !important;
+    box-shadow: 0 8px 32px rgba(1, 27, 42, 0.3) !important;
+    position: relative !important;
+    overflow: hidden !important;
+    height: 300px !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.car_card:hover {
+    transform: translateY(-8px) scale(1.02) !important;
+    box-shadow: 0 20px 40px rgba(1, 27, 42, 0.4), 0 0 30px rgba(255, 215, 0, 0.4) !important;
+    border-color: #fbbf24 !important;
+}
+
+.car_card_segment {
+    background: linear-gradient(180deg, #3788b0d6 0%, #7aafca29 100%) !important;
+    cursor: pointer !important;
+    border: 3px solid #ffd700 !important;
+    border-radius: 15px !important;
+    box-shadow: 0 8px 32px rgba(55, 136, 176, 0.3) !important;
+    position: relative !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease-in-out !important;
+    height: 300px !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+
+.car_card_segment:hover {
+    transform: translateY(-8px) scale(1.02) !important;
+    box-shadow: 0 20px 40px rgba(55, 136, 176, 0.4), 0 0 30px rgba(255, 215, 0, 0.4) !important;
+    border-color: #fbbf24 !important;
+}
+
+.car_card_2 {
+    background: linear-gradient(180deg, #262424 0%, #332d2d9c 100%) !important;
+    cursor: pointer !important;
+    border: 3px solid #ffd700 !important;
+    border-radius: 15px !important;
+    box-shadow: 0 8px 32px rgba(38, 36, 36, 0.3) !important;
+    position: relative !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease-in-out !important;
+    height: 300px !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+
+.car_card_2:hover {
+    transform: translateY(-8px) scale(1.02) !important;
+    box-shadow: 0 20px 40px rgba(38, 36, 36, 0.4), 0 0 30px rgba(255, 215, 0, 0.4) !important;
+    border-color: #fbbf24 !important;
+}
+
+.car_card_3 {
+    background: linear-gradient(180deg, #011b2ade 0%, #011b2a8a 100%) !important;
+    cursor: pointer !important;
+    border: 3px solid #ffd700 !important;
+    border-radius: 15px !important;
+    box-shadow: 0 8px 32px rgba(1, 27, 42, 0.3) !important;
+    position: relative !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease-in-out !important;
+    height: 300px !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+
+.car_card_3:hover {
+    transform: translateY(-8px) scale(1.02) !important;
+    box-shadow: 0 20px 40px rgba(1, 27, 42, 0.4), 0 0 30px rgba(255, 215, 0, 0.4) !important;
+    border-color: #fbbf24 !important;
+}
+
+.car_card_4 {
+    background: linear-gradient(180deg, #6f0002 0%, #8b010694 100%) !important;
+    cursor: pointer !important;
+    border: 3px solid #ffd700 !important;
+    border-radius: 15px !important;
+    box-shadow: 0 8px 32px rgba(111, 0, 2, 0.3) !important;
+    position: relative !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease-in-out !important;
+    height: 300px !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+
+.car_card_4:hover {
+    transform: translateY(-8px) scale(1.02) !important;
+    box-shadow: 0 20px 40px rgba(111, 0, 2, 0.4), 0 0 30px rgba(255, 215, 0, 0.4) !important;
+    border-color: #fbbf24 !important;
+}
+
+.car_card_5 {
+    background: linear-gradient(180deg, #172031 0%, #17203194 100%) !important;
+    cursor: pointer !important;
+    border: 3px solid #ffd700 !important;
+    border-radius: 15px !important;
+    box-shadow: 0 8px 32px rgba(23, 32, 49, 0.3) !important;
+    position: relative !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease-in-out !important;
+    height: 300px !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+
+.car_card_5:hover {
+    transform: translateY(-8px) scale(1.02) !important;
+    box-shadow: 0 20px 40px rgba(23, 32, 49, 0.4), 0 0 30px rgba(255, 215, 0, 0.4) !important;
+    border-color: #fbbf24 !important;
+}
+
+.car_card_6 {
+    background: linear-gradient(180deg, #6f0002 0%, #8b010694 100%) !important;
+    cursor: pointer !important;
+    border: 3px solid #ffd700 !important;
+    border-radius: 15px !important;
+    box-shadow: 0 8px 32px rgba(111, 0, 2, 0.3) !important;
+    position: relative !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease-in-out !important;
+    height: 300px !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+
+.car_card_6:hover {
+    transform: translateY(-8px) scale(1.02) !important;
+    box-shadow: 0 20px 40px rgba(111, 0, 2, 0.4), 0 0 30px rgba(255, 215, 0, 0.4) !important;
+    border-color: #fbbf24 !important;
+}
+
+.car_card_7 {
+    background: linear-gradient(180deg, #580c0d 0%, #580c0d94 100%) !important;
+    cursor: pointer !important;
+    border: 3px solid #ffd700 !important;
+    border-radius: 15px !important;
+    box-shadow: 0 8px 32px rgba(88, 12, 13, 0.3) !important;
+    position: relative !important;
+    overflow: hidden !important;
+    transition: all 0.4s ease-in-out !important;
+    height: 300px !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+
+.car_card_7:hover {
+    transform: translateY(-8px) scale(1.02) !important;
+    box-shadow: 0 20px 40px rgba(88, 12, 13, 0.4), 0 0 30px rgba(255, 215, 0, 0.4) !important;
+    border-color: #fbbf24 !important;
+}
+
+
+
+
+/* .car_card:hover {
+    background-color: #1976d269 !important; */
+/* color: white !important;
+} */
+
+.car_cat_text_categories {
+    text-align: center !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-size: 1.3rem !important;
+}
+
+
+.car_des_con p {
+    text-align: justify !important;
+    font-family: sans-serif !important;
+    font-size: 16px !important;
+}
+
+.car_des_con {
+    margin-top: 30px !important;
+}

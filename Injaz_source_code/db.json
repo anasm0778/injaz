@@ -1,0 +1,111 @@
+{
+  "routes": {
+    "/users": "/users"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com"
+    },
+    {
+      "userInput": "",
+      "id": 3
+    },
+    {
+      "userInput": "",
+      "id": 4
+    },
+    {
+      "userInput": "",
+      "id": 5
+    },
+    {
+      "userInput": "",
+      "id": 6
+    },
+    {
+      "userInput": "",
+      "id": 7
+    },
+    {
+      "userInput": "",
+      "id": 8
+    },
+    {
+      "userInput": {},
+      "id": 9
+    },
+    {
+      "userInput": "",
+      "id": 10
+    },
+    {
+      "userInput": "",
+      "id": 11
+    },
+    {
+      "userInput": {},
+      "id": 12
+    },
+    {
+      "userInput": {},
+      "id": 13
+    },
+    {
+      "userInput": "",
+      "id": 14
+    },
+    {
+      "userInput": "",
+      "id": 15
+    },
+    {
+      "userInput": "",
+      "id": 16
+    },
+    {
+      "userInput": "",
+      "id": 17
+    },
+    {
+      "payload": {
+        "msg": "Hi, how can I assist you today?",
+        "reply": "hi"
+      },
+      "id": 18
+    },
+    {
+      "msg": "Hi, how can I assist you today?",
+      "reply": "hi",
+      "id": 19
+    },
+    {
+      "msg": "Thanks for connecting with us! Can you please share your name, email and phone number to assist better?",
+      "reply": "hi",
+      "id": 20
+    },
+    {
+      "msg": "Can you tell me a little bit about your business and what you're looking for in terms of products/services?",
+      "reply": "hi",
+      "id": 21
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1",
+      "content": "This is the content of post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2",
+      "content": "This is the content of post 2"
+    }
+  ]
+}

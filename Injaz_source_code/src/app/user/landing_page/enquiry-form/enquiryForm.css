@@ -1,0 +1,79 @@
+.enquiry_btn {
+    color: black !important;
+    background-color: white !important;
+    border-radius: 40px !important;
+    padding: 5px 25px !important;
+    font-weight: bold !important;
+}
+
+.enquiry_btn:hover {
+    color: white !important;
+    background-color: black !important;
+}
+
+.header_links {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.signLog_btn {
+    text-transform: uppercase !important;
+    color: black !important;
+    background-color: white !important;
+    border-radius: 40px !important;
+    padding: 5px 10px !important;
+    font-weight: bold !important;
+    margin-right: 10px !important;
+}
+
+.signLog_btn:hover {
+    color: white !important;
+    background-color: black !important;
+}
+
+.login_icon {
+    margin-right: 5px !important;
+}
+
+/* .dialog_css .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    min-width: 400px !important;
+} */
+
+.css_model .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    min-width: 400px !important;
+
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    width: 900px !important;
+    max-width: none !important;
+}
+
+.react-tel-input .form-control {
+    width: 100% !important;
+}
+
+.css_model .css-uhb5lp {
+    max-width: 900px !important;
+}
+
+.booknow_btn {
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%) !important;
+    padding: 5px 15px !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    transition: 0.5s !important;
+    background-size: 200% auto !important;
+    color: white !important;
+    box-shadow: 0 0 5px #eee !important;
+    border-radius: 10px !important;
+    font-size: 12px !important;
+    text-transform: capitalize !important;
+    display: block !important;
+}
+
+.booknow_btn:hover {
+    background-position: right center !important;
+    color: #fff !important;
+    text-decoration: none !important;
+}

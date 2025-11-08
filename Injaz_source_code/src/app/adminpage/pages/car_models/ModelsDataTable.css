@@ -1,0 +1,69 @@
+.model_data_table {
+    display: flex;
+    align-items: center;
+}
+
+.model_table_text {
+    width: 100%;
+}
+
+.model_table_btn {
+    width: 100%;
+    text-align: right;
+}
+
+.magcatbtn {
+    margin: 30px 0px;
+}
+
+.catsubmitbtn {
+    margin-right: 20px !important;
+}
+
+.catecontbox {
+    border: 1px solid #dee1e6;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.mancat_main {
+    background-color: #f1f3f4;
+    height: 100vh;
+}
+
+/* *************addnewCat.css*************** */
+.newcate_head h1 {
+    border-bottom: 2px solid #f1f3f4;
+    padding-bottom: 10px;
+}
+
+.newcate_head {
+    padding: 20px 0px;
+    border-bottom: 2px solid #f1f3f4;
+}
+
+/* ==============rows conditional rendering============= */
+
+.dark-gray-row-static {
+    background-color: lightgray;
+}
+
+.dark-gray-row {
+    background-color: #f3f351f1;
+    /* Add any other styles you want for light yellow rows */
+
+    /*animation: blink 1.5s infinite;  Blink animation */
+}
+
+/* @keyframes blink { */
+    /* 50%, 100% { */
+        /* background-color: #f3f351f1; Light yellow */
+    /* } */
+    /* 50% { */
+        /* background-color: lightgray; Transparent */
+    /* } */
+/* } */
+
+.css-10cbwbc-MuiTableRow-root.MuiTableRow-hover:hover {
+    background-color: none !important;
+}

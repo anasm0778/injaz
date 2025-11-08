@@ -1,0 +1,147 @@
+.bkngScnHead h2 {
+    color: white;
+    background-color: #01437d;
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.locInfoHead h2 {
+    color: white;
+    background-color: #01437d;
+    text-align: left;
+    padding: 10px 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.locInfoLeftHead h3, .locInfoRightHead h3 {
+    margin: 0px;
+    color: #01437d;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.locInfoLeftPara p, .locInfoRightPara p {
+    text-transform: capitalize;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0px;
+    padding: 7px 0px;
+    text-align: justify;
+}
+
+.locInfoRight, .locInfoLeft {
+    padding: 5px 15px;
+}
+
+.locationInformation  {
+    padding: 10px 0px;
+}
+
+.pickDropLeft,
+.pickDropRight {
+    padding: 0px 15px;
+}
+
+.pickDropLeft h3,
+.pickDropRight h3,
+.bookImgHead h3 {
+    margin: 0px;
+    color: #01437d;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.pickDropLeft p {
+    margin: 0px;
+    color: black;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.pickDropRight h4 {
+    margin: 0px;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5px 0px;
+}
+
+.pickDropRight p {
+    margin: 0px;
+    color: #0fa8e7;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: capitalize;
+    padding: 5px 0px;
+}
+
+.bkngPicdrop {
+    border-bottom: 1.5px solid black;
+    margin-top: 10px;
+}
+
+.bookingBilling {
+    padding: 15px 0px;
+    border-bottom: 1.5px solid black;
+}
+
+.bookingCardetail h4 {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.bookingCardetail {
+    padding: 10px 0px;
+}
+
+.bookingImg,
+.billingTotal {
+    padding: 0px 15px;
+}
+
+.billingTotalHead h3 {
+    margin: 0px;
+    color: #01437d;
+    font-weight: 600;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.billingStructure h4 {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0px;
+    padding: 7px 0px;
+}
+
+.billingTotalHead {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #01437d75;
+}
+
+.billingCaution h3 {
+    margin: 0px;
+    color: #01437d;
+    font-weight: 600;
+    text-align: center;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+/* 
+.heading {
+    background: linear-gradient(120deg, #3498db, #8e44ad);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline;
+  } */

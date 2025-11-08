@@ -1,0 +1,14 @@
+.testimonials_head h3 {
+    text-align: center !important;
+    border-bottom: 1px dotted gray !important;
+    margin-bottom: 20px;
+    font-size: 26px !important;
+}
+
+.testimonials {
+    margin: 25px 0px !important;
+}
+
+.testimonial_text {
+    text-align: justify;
+}

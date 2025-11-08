@@ -1,0 +1,197 @@
+.accordion {
+    margin: 60px 0px !important;
+    padding: 40px 0px !important;
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%) !important;
+    position: relative !important;
+    animation: fadeInUp 0.8s ease-out 0.6s both !important;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.accordion::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #01437d 0%, #ffd700 50%, #01437d 100%);
+}
+
+.faq_head h3 {
+    text-align: center !important;
+    margin-bottom: 50px !important;
+    font-size: 32px !important;
+    font-weight: 700 !important;
+    color: #1a202c !important;
+    position: relative !important;
+    padding-bottom: 20px !important;
+}
+
+.faq_head h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(90deg, #01437d, #ffd700);
+    border-radius: 2px;
+}
+
+.acc_head {
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    color: #1a202c !important;
+    font-family: 'Poppins', 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    line-height: 1.4 !important;
+}
+
+/* Modern Accordion Styling */
+.modernAccordion {
+    background: rgba(255, 255, 255, 0.95) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 8px 25px rgba(1, 67, 125, 0.1) !important;
+    border: 1px solid rgba(1, 67, 125, 0.1) !important;
+    backdrop-filter: blur(10px) !important;
+    transition: all 0.3s ease !important;
+    margin-bottom: 16px !important;
+    overflow: hidden !important;
+    position: relative !important;
+}
+
+.modernAccordion::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #01437d, #ffd700);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.modernAccordion:hover::before {
+    transform: scaleX(1);
+}
+
+.modernAccordion:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 12px 35px rgba(1, 67, 125, 0.15) !important;
+    border-color: rgba(1, 67, 125, 0.2) !important;
+}
+
+.modernAccordion.Mui-expanded {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 12px 35px rgba(1, 67, 125, 0.15) !important;
+    border-color: rgba(1, 67, 125, 0.2) !important;
+}
+
+.modernAccordion.Mui-expanded::before {
+    transform: scaleX(1);
+}
+
+.modernAccordionSummary {
+    background: rgba(255, 255, 255, 0.9) !important;
+    padding: 24px 30px !important;
+    transition: all 0.3s ease !important;
+    border-radius: 16px !important;
+    position: relative !important;
+}
+
+.modernAccordionSummary:hover {
+    background: rgba(1, 67, 125, 0.05) !important;
+}
+
+.modernAccordionSummary.Mui-expanded {
+    background: rgba(1, 67, 125, 0.08) !important;
+    border-radius: 16px 16px 0 0 !important;
+}
+
+.modernAccordionDetails {
+    background: rgba(255, 255, 255, 0.95) !important;
+    padding: 0 30px 30px 30px !important;
+    border-radius: 0 0 16px 16px !important;
+    border-top: 1px solid rgba(1, 67, 125, 0.1) !important;
+}
+
+.modernAccordionDetails .MuiTypography-root {
+    color: #4a5568 !important;
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    text-align: justify !important;
+}
+
+.modernAccordionIcon {
+    color: #01437d !important;
+    transition: all 0.3s ease !important;
+    font-size: 20px !important;
+}
+
+.modernAccordionIcon.Mui-expanded {
+    color: #ffd700 !important;
+    transform: rotate(90deg) !important;
+}
+
+.faq_head h1, .faq_head h2 {
+    text-align: center !important;
+    border-bottom: none !important;
+}
+
+@media (max-width: 768px) {
+    .accordion {
+        margin: 30px 0px !important;
+        padding: 20px 0px !important;
+    }
+    
+    .faq_head h3 {
+        font-size: 24px !important;
+        margin-bottom: 30px !important;
+    }
+    
+    .modernAccordionSummary {
+        padding: 20px 20px !important;
+    }
+    
+    .modernAccordionDetails {
+        padding: 0 20px 20px 20px !important;
+    }
+    
+    .acc_head {
+        font-size: 16px !important;
+    }
+    
+    .modernAccordionDetails .MuiTypography-root {
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .modernAccordionSummary {
+        padding: 16px 16px !important;
+    }
+    
+    .modernAccordionDetails {
+        padding: 0 16px 16px 16px !important;
+    }
+    
+    .acc_head {
+        font-size: 15px !important;
+    }
+    
+    .modernAccordionDetails .MuiTypography-root {
+        font-size: 14px !important;
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "navbar": {
+        "location": "Location",
+        "brand":"Brand",
+        "category":"Categories",
+        "subscription":{
+            "heading":"Subscription",
+            "daily":"Daily Subscription",
+            "weekly":"Weekly Subscription",
+            "monthly":"Monthly Subscription"
+        },
+        "login":"LogIn",
+        "enquiry":"Enquiry"
+    }
+}

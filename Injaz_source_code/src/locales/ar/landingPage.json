@@ -1,0 +1,15 @@
+{
+    "navbar": {
+        "location": "موقع",
+        "brand":"ماركة",
+        "category":"فئات",
+        "subscription":{
+            "heading":"الاشتراك",
+            "daily":"الاشتراك اليومي",
+            "weekly":"الاشتراك الاسبوعي",
+            "monthly":"الاشتراك الشهري"
+        },
+        "login":"دخول",
+        "enquiry":"استفسار"
+    }
+}
