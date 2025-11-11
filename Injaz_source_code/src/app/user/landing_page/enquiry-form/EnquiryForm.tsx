@@ -70,7 +70,7 @@ const schema = yup.object().shape({
   pickupTime: yup.string().required("pickupTime is required"),
   dropTime: yup.string().required("dropTime is required"),
 });
-const serverAPI = "https://logicrent.ae/api";
+const serverAPI = "https://injazrent.ae/api";
 const localAPI = "http://localhost:4000";
 
 function EnquiryForm() {

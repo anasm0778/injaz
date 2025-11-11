@@ -30,7 +30,7 @@ interface IErrors {
   title: boolean;
   select: boolean;
 }
-const serverAPI='https://logicrent.ae/api'
+const serverAPI='https://injazrent.ae/api'
 const localAPI ='http://localhost:4000'
 
 const ReqDocsForm = () => {

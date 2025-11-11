@@ -57,7 +57,7 @@ const schema = yup.object().shape({
   locality: yup.string().required("locality Name is required"),
   address: yup.string().required("address Name is required"),
 });
-const serverAPI='https://logicrent.ae/api'
+const serverAPI='https://injazrent.ae/api'
 const localAPI ='http://localhost:4000'
 
 const SignUpTest: React.FC = () => {

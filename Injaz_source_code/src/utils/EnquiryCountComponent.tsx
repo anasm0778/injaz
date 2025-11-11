@@ -17,7 +17,7 @@ const EnquiryCountComponent = ({ filterType }:any) => {
     const fetchInquiries = async () => {
       try {
         const response = await axios.get(
-          "https://logicrent.ae/api/user/getInquirys"
+          "https://injazrent.ae/api/user/getInquirys"
         );
         const fetchedInquiries = response.data.data;
         setInquiries(fetchedInquiries);

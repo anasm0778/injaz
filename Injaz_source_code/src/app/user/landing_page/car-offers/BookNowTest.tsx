@@ -18,7 +18,7 @@ const validationSchema = Yup.object({
   email: Yup.string().required('Email is required').email('Invalid email address'),
   // Add validation for other fields here
 });
-const serverAPI='https://logicrent.ae/api'
+const serverAPI='https://injazrent.ae/api'
 const localAPI ='http://localhost:4000'
 
 const BookNowTest = () => {

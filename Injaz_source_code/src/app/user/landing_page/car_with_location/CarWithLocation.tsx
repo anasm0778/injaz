@@ -27,7 +27,7 @@ import NavFooter from "@/utils/Na_Fo";
 import CloseIcon from "@mui/icons-material/Close";
 import CustomizedTooltips from "@/utils/reusableTooltip";
 
-const serverAPI = "https://logicrent.ae/api";
+const serverAPI = "https://injazrent.ae/api";
 const localAPI = "http://localhost:4000";
 
 const CarWithLocation = () => {

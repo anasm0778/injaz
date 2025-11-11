@@ -14,14 +14,14 @@ const getServerUrl = () => {
   }
   
   // Default to production for server-side rendering
-  return 'https://logicrent.ae/api';
+  return 'https://injazrent.ae/api';
 };
 
 export const serverUrl = getServerUrl();
 
 // For easy switching during development, you can manually override:
 // export const serverUrl = "http://localhost:4000";  // Local development
-// export const serverUrl = "https://logicrent.ae/api"; // Production
+// export const serverUrl = "https://injazrent.ae/api"; // Production
 
 /**
  * Validates and sanitizes image URLs for Next.js Image component

@@ -20,7 +20,7 @@ echo "====================="
 # Check current configuration
 if grep -q "http://localhost:4000" src/utils/helper.js; then
     echo "📍 Current: LOCAL DEVELOPMENT (localhost:4000)"
-elif grep -q "https://logicrent.ae/api" src/utils/helper.js; then
+elif grep -q "https://injazrent.ae/api" src/utils/helper.js; then
     echo "📍 Current: PRODUCTION (api.logicrent.ae)"
 else
     echo "📍 Current: AUTO-DETECT (based on hostname)"
@@ -45,7 +45,7 @@ case $choice in
         ;;
     2)
         echo "🔄 Switching to PRODUCTION..."
-        sed -i 's|export const serverUrl = .*|export const serverUrl = "https://logicrent.ae/api";|' src/utils/helper.js
+        sed -i 's|export const serverUrl = .*|export const serverUrl = "https://injazrent.ae/api";|' src/utils/helper.js
         echo "✅ Switched to PRODUCTION"
         ;;
     3)
@@ -67,14 +67,14 @@ const getServerUrl = () => {
   }
   
   // Default to production for server-side rendering
-  return 'https://logicrent.ae/api';
+  return 'https://injazrent.ae/api';
 };
 
 export const serverUrl = getServerUrl();
 
 // For easy switching during development, you can manually override:
 // export const serverUrl = "http://localhost:4000";  // Local development
-// export const serverUrl = "https://logicrent.ae/api"; // Production
+// export const serverUrl = "https://injazrent.ae/api"; // Production
 EOF
         echo "✅ Switched to AUTO-DETECT"
         echo "📝 Will use localhost:4000 for local development and api.logicrent.ae for production"

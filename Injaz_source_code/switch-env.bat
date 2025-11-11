@@ -24,7 +24,7 @@ if %errorlevel% equ 0 (
     goto :menu
 )
 
-findstr /C:"https://logicrent.ae/api" src\utils\helper.js >nul
+findstr /C:"https://injazrent.ae/api" src\utils\helper.js >nul
 if %errorlevel% equ 0 (
     echo 📍 Current: PRODUCTION (api.logicrent.ae)
     goto :menu
@@ -61,7 +61,7 @@ goto :end
 
 :production
 echo 🔄 Switching to PRODUCTION...
-powershell -Command "(Get-Content 'src\utils\helper.js') -replace 'export const serverUrl = .*', 'export const serverUrl = \"https://logicrent.ae/api\";' | Set-Content 'src\utils\helper.js'"
+powershell -Command "(Get-Content 'src\utils\helper.js') -replace 'export const serverUrl = .*', 'export const serverUrl = \"https://injazrent.ae/api\";' | Set-Content 'src\utils\helper.js'"
 echo ✅ Switched to PRODUCTION
 goto :end
 
@@ -83,14 +83,14 @@ echo     return process.env.NEXT_PUBLIC_API_URL; >> src\utils\helper.js
 echo   } >> src\utils\helper.js
 echo. >> src\utils\helper.js
 echo   // Default to production for server-side rendering >> src\utils\helper.js
-echo   return 'https://logicrent.ae/api'; >> src\utils\helper.js
+echo   return 'https://injazrent.ae/api'; >> src\utils\helper.js
 echo }; >> src\utils\helper.js
 echo. >> src\utils\helper.js
 echo export const serverUrl = getServerUrl(); >> src\utils\helper.js
 echo. >> src\utils\helper.js
 echo // For easy switching during development, you can manually override: >> src\utils\helper.js
 echo // export const serverUrl = "http://localhost:4000";  // Local development >> src\utils\helper.js
-echo // export const serverUrl = "https://logicrent.ae/api"; // Production >> src\utils\helper.js
+echo // export const serverUrl = "https://injazrent.ae/api"; // Production >> src\utils\helper.js
 echo ✅ Switched to AUTO-DETECT
 echo 📝 Will use localhost:4000 for local development and api.logicrent.ae for production
 goto :end

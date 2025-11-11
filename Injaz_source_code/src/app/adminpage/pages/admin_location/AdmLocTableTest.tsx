@@ -133,7 +133,7 @@ interface EnhancedTableProps {
   orderBy: string;
   rowCount: number;
 }
-const serverAPI = "https://logicrent.ae/api";
+const serverAPI = "https://injazrent.ae/api";
 const localAPI = "http://localhost:4000";
 
 function EnhancedTableHead(props: EnhancedTableProps) {
