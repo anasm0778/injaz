@@ -215,3 +215,4 @@ UPLOAD_BASE_PATH=./injaz_uploads
 - Updated CORS origins
 
 **After proper configuration, both instances can run simultaneously without conflicts!** 🚀
+

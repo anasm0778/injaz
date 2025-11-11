@@ -132,24 +132,24 @@ carInquiryRouter.post(
     try {
       const { msg } = req.body;
       const transporterOptions = {
-        host: 'smtp.hostinger.com',
+        host: process.env.EMAIL_HOST || 'smtp.hostinger.com',
         secure: false,
         secureConnection: false,
         tls: {
           ciphers: 'SSLv3',
         },
-        port: 587,
+        port: parseInt(process.env.EMAIL_PORT || '587'),
         auth: {
-          user: 'Info@logicrent.ae',
-          pass: 'Info@2016',
+          user: process.env.EMAIL_USER || 'Info@logicrent.ae',
+          pass: process.env.EMAIL_PASS || 'Info@2016',
         },
       } as nodemailer.TransportOptions;
 
       const transporter = nodemailer.createTransport(transporterOptions);
 
       const mailOptions = {
-        from: 'Info@logicrent.ae',
-        to: 'Info@logicrent.ae',
+        from: process.env.EMAIL_USER || 'Info@logicrent.ae',
+        to: process.env.EMAIL_USER || 'Info@logicrent.ae',
         subject: 'INQUIRY Successfully CREATED',
         html: `
           <html>
@@ -249,24 +249,24 @@ carInquiryRouter.post('/createInquiry', async (req: Request, res: Response) => {
 
     if (result) {
       const transporterOptions = {
-        host: 'smtp.hostinger.com',
+        host: process.env.EMAIL_HOST || 'smtp.hostinger.com',
         secure: false,
         secureConnection: false,
         tls: {
           ciphers: 'SSLv3',
         },
-        port: 587,
+        port: parseInt(process.env.EMAIL_PORT || '587'),
         auth: {
-          user: 'Info@logicrent.ae',
-          pass: 'Info@2016',
+          user: process.env.EMAIL_USER || 'Info@logicrent.ae',
+          pass: process.env.EMAIL_PASS || 'Info@2016',
         },
       } as nodemailer.TransportOptions;
 
       const transporter = nodemailer.createTransport(transporterOptions);
 
       const mailOptions = {
-        from: 'Info@logicrent.ae',
-        to: 'Info@logicrent.ae',
+        from: process.env.EMAIL_USER || 'Info@logicrent.ae',
+        to: process.env.EMAIL_USER || 'Info@logicrent.ae',
         subject: 'INQUIRY Successfully CREATED',
         html: `
             <html>

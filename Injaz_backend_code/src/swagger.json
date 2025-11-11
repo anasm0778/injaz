@@ -8,7 +8,7 @@
     "schemas":[
        "http"
     ],
-    "host":"https://api.logicrent.ae",
+    "host": "localhost:4001",
     "paths":{
        "/user/signUp":{
           "post":{

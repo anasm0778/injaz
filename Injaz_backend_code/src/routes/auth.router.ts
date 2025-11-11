@@ -38,23 +38,23 @@ configurePassport();
 
 const sendEmail = async (to: string, subject: string, text: string, html: string) => {
   const transporterOptions = {
-    host: 'smtp.hostinger.com',
+    host: process.env.EMAIL_HOST || 'smtp.hostinger.com',
     secure: false,
     secureConnection: false,
     tls: {
       ciphers: 'SSLv3',
     },
-    port: 587,
+    port: parseInt(process.env.EMAIL_PORT || '587'),
     auth: {
-      user: 'info@logicrent.ae',
-      pass: 'Info@2016',
+      user: process.env.EMAIL_USER || 'info@logicrent.ae',
+      pass: process.env.EMAIL_PASS || 'Info@2016',
     },
   } as nodemailer.TransportOptions;
 
   const transporter = nodemailer.createTransport(transporterOptions);
 
   const mailOptions = {
-    from: 'info@logicrent.ae',
+    from: process.env.EMAIL_USER || 'info@logicrent.ae',
     to,
     subject,
     text,
@@ -107,8 +107,8 @@ authRouter.post("/signUp", async (req: Request, res: Response) => {
 
     if (result) {
       const mailOptions = {
-        from: 'info@logicrent.ae',
-        to: 'info@logicrent.ae',
+        from: process.env.EMAIL_USER || 'info@logicrent.ae',
+        to: process.env.EMAIL_USER || 'info@logicrent.ae',
         subject: 'New Customer Information',
         html: `
         <html>
@@ -297,7 +297,7 @@ authRouter.put('/forgotPassword', async (req, res) => {
 
     if (result) {
       const mailOptions = {
-        from: 'info@logicrent.ae',
+        from: process.env.EMAIL_USER || 'info@logicrent.ae',
         to: `${email}`,
         subject: 'Password Reset Request',
         text: `Click the following link to reset your password: ${resetPasswordLink}`,

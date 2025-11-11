@@ -47,7 +47,9 @@ log4js.configure({
 const logger = log4js.getLogger('injazAdmin');
 
 const corsOptions = {
-  origin: ['https://logicrent.ae', 'http://localhost:3000', 'http://localhost:3001', 'https://wwww.logicrent.ae', 'https://dev.logicrent.ae', 'https://www.dev.logicrent.ae', 'https://www.logicrent.ae'],
+  origin: process.env.CORS_ORIGINS 
+    ? process.env.CORS_ORIGINS.split(',').map(origin => origin.trim())
+    : ['http://localhost:3000', 'http://localhost:3001'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true

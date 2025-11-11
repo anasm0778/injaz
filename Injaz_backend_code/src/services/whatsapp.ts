@@ -1,8 +1,8 @@
 import pkg from 'twilio';
 
 
-const accountSid = 'TWILIO_ACCOUNT_SID';
-const authToken = 'TWILIO_AUTH_TOKEN';
+const accountSid = 'AC74e07a59879611d14837ec0b16c5a4ce';
+const authToken = '05fa3d42cf11dbb516338f92c41a951f';
 const client = pkg(accountSid, authToken);
 export const sendWhatsAppmessage = ({ message }) => {
   client.messages
