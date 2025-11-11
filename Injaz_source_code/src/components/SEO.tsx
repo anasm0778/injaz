@@ -61,8 +61,8 @@ const SEO: React.FC<SEOProps> = ({
     'car rentals in mussafah', 'cheap car rental in musaffah', 'best rent a car in musaffah',
     'rent a car in mussafah without deposit', 'logic dubai rent a car'
   ],
-  canonicalUrl = "https://logicrent.ae/",
-  ogImage = "https://logicrent.ae/logic%20white%20colour%20logo.png",
+  canonicalUrl = "https://injazrent.ae/",
+  ogImage = "https://injazrent.ae/logic%20white%20colour%20logo.png",
   ogType = "website",
   twitterCard = "summary_large_image",
   noIndex = false,
@@ -119,9 +119,9 @@ const SEO: React.FC<SEOProps> = ({
       
       {/* Language Tags */}
       <meta httpEquiv="content-language" content="en" />
-      <link rel="alternate" hrefLang="en" href="https://logicrent.ae/en" />
-      <link rel="alternate" hrefLang="ar" href="https://logicrent.ae/ar" />
-      <link rel="alternate" hrefLang="x-default" href="https://logicrent.ae/" />
+      <link rel="alternate" hrefLang="en" href="https://injazrent.ae/en" />
+      <link rel="alternate" hrefLang="ar" href="https://injazrent.ae/ar" />
+      <link rel="alternate" hrefLang="x-default" href="https://injazrent.ae/" />
       
       {/* Structured Data */}
       {structuredData && (

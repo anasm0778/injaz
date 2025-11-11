@@ -5,7 +5,7 @@ import { GoogleTagManager } from '@next/third-parties/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://logicrent.ae/'),
+  metadataBase: new URL('https://injazrent.ae/'),
   title: 'Logic Rent A Car Dubai | Affordable Car Rental No Deposit | Monthly Car Rental Dubai',
   description: 'Reliable & affordable car rental in Dubai & Abu Dhabi. Daily, weekly & monthly car hire. SUVs, sedans & luxury cars. Book online with Logic Rent a Car.',
   applicationName: 'Logic Rent A Car',
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     'car rentals in mussafah', 'cheap car rental in musaffah', 'best rent a car in musaffah',
     'rent a car in mussafah without deposit', 'logic dubai rent a car'
   ],
-  authors: [{name: 'Logic Rent A Car', url: 'https://logicrent.ae/'}],
+  authors: [{name: 'Logic Rent A Car', url: 'https://injazrent.ae/'}],
   creator: 'Logic Rent A Car',
   publisher: 'Logic Rent A Car',
   robots: {
@@ -84,13 +84,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Logic Rent A Car Dubai | Affordable Car Rental No Deposit | Monthly Car Rental Dubai',
     description: 'Reliable & affordable car rental in Dubai & Abu Dhabi. Daily, weekly & monthly car hire. SUVs, sedans & luxury cars. Book online with Logic Rent a Car.',
-    url: 'https://logicrent.ae/',
+    url: 'https://injazrent.ae/',
     siteName: 'Logic Rent A Car',
     type: 'website',
     locale: 'en_US',
     images: [
       {
-        url: 'https://logicrent.ae/logic%20white%20colour%20logo.png',
+        url: 'https://injazrent.ae/logic%20white%20colour%20logo.png',
         width: 1200,
         height: 630,
         alt: 'Logic Rent A Car Dubai - Best Car Rental Service',
@@ -102,7 +102,7 @@ export const metadata: Metadata = {
     description: 'Reliable & affordable car rental in Dubai & Abu Dhabi. Daily, weekly & monthly car hire. SUVs, sedans & luxury cars. Book online with Logic Rent a Car.',
     site: '@logicrent',
     card: 'summary_large_image',
-    images: ['https://logicrent.ae/logic%20white%20colour%20logo.png'],
+    images: ['https://injazrent.ae/logic%20white%20colour%20logo.png'],
   },
   verification: {
     google: 'your-google-verification-code',

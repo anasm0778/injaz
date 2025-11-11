@@ -520,7 +520,7 @@ const NewFaq = () => {
                 <Box component="span" sx={{ fontWeight: "bold" }}>
                   reservation office
                 </Box>{" "}
-                or send mail to info@logicrent.ae
+                or send mail to info@injazrent.ae
               </Typography>
             </Box>
             <Box sx={{ marginBottom: "1rem" }}>

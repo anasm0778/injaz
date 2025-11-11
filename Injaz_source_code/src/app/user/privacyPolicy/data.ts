@@ -164,7 +164,7 @@ export const disclosureInfo = [
       "Minors are not permitted to use the Injazrent.ae website or its services.",
       "Injazrent.ae requests that individuals under the age of 18 refrain from submitting any personal information to the website.",
       "Since data from minors is not knowingly collected, Injazrent.ae does not knowingly distribute such information.",
-      "If you believe that information regarding a minor under 18 has been inadvertently collected, please contact info@logicrent.ae for assistance with removal or correction.",
+      "If you believe that information regarding a minor under 18 has been inadvertently collected, please contact info@injazrent.ae for assistance with removal or correction.",
     ],
   },
   {

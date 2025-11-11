@@ -441,7 +441,7 @@ export default function PhoneAndEmail() {
                 </Grid>
                 <Grid item xs={12} sm={5} md={5} lg={5} xl={5}>
                   <DialogContent>
-                    <h3>info@logicrent.ae</h3>
+                    <h3>info@injazrent.ae</h3>
                   </DialogContent>
                 </Grid>
                 <Grid item xs={12} sm={2} md={2} lg={2} xl={2}>

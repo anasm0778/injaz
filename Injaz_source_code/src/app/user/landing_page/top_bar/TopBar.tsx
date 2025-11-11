@@ -47,7 +47,7 @@ const TopBar = () => {
           <div className="top_email">
             <MailOutlineIcon className="top_mail_icon" />
             <p>
-              <a target='_blank' href="mailto:info@logicrent.ae">info@logicrent.ae</a>
+              <a target='_blank' href="mailto:info@injazrent.ae">info@injazrent.ae</a>
             </p>
           </div>
           <div className="top_num">

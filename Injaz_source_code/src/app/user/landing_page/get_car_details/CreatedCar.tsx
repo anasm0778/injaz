@@ -787,7 +787,7 @@ const CreatedCar = () => {
     setError("");
     const { brand, model, year, _id } = carDetails;
     // const baseUrl =
-    //   "https://logicrent.ae/user/landing_page/get_car_details?verify=";
+    //   "https://injazrent.ae/user/landing_page/get_car_details?verify=";
     // const url = `${baseUrl}${_id}`;
     // const whatsappMessage = `Hi, \nI’m ${userfullName} contacting you through Injazrent.ae. \nI’d like to rent the INJAZ Car. \nFull Name :- ${userfullName}. \nPhone No :- ${userphoneNumber}. \nEmail :-${userEmail}. \nCity :- ${userCity}. \nStart Date :- ${userStartDate}. \nCar Delivery Time :- ${userCarDeliveryTime}. \nCar :- ${brand} ${model} ${year}. \nBooking ${bookingMonth
     //   .replace(/\d+/, "")
@@ -946,7 +946,7 @@ const CreatedCar = () => {
     setError("");
     const { brand, model, year, _id } = carDetails;
     // const baseUrl =
-    //   "https://logicrent.ae/user/landing_page/get_car_details?verify=";
+    //   "https://injazrent.ae/user/landing_page/get_car_details?verify=";
     // const url = `${baseUrl}${_id}`;
     // const whatsappMessage = `Hi, \nI’m ${userfullName} contacting you through Injazrent.ae. \nI’d like to rent the INJAZ Car. \nFull Name :- ${userfullName}. \nPhone No :- ${userphoneNumber}. \nEmail :-${userEmail}. \nCity :- ${userCity}. \nStart Date :- ${userStartDate}. \nCar Delivery Time :- ${userCarDeliveryTime}. \nCar :- ${brand} ${model} ${year}. \nBooking ${bookingDaysWeeks
     //   .replace(/\d+/, "")

@@ -43,7 +43,7 @@ export const box1 = [
         "A copy of your Passport.",
       ],
       subHeadTwo:
-        " If you have further questions or require assistance, please contact your local INJAZ Reservations Office for support or send mail to info@logicrent.ae",
+        " If you have further questions or require assistance, please contact your local INJAZ Reservations Office for support or send mail to info@injazrent.ae",
     },
   ];
   export const box5 = [

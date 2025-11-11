@@ -6,7 +6,7 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://logicrent.ae/</loc>
+    <loc>https://injazrent.ae/</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -14,7 +14,7 @@
 
   <!-- English Pages -->
   <url>
-    <loc>https://logicrent.ae/en</loc>
+    <loc>https://injazrent.ae/en</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -22,7 +22,7 @@
 
   <!-- Arabic Pages -->
   <url>
-    <loc>https://logicrent.ae/ar</loc>
+    <loc>https://injazrent.ae/ar</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -30,21 +30,21 @@
 
   <!-- Car Rental Services -->
   <url>
-    <loc>https://logicrent.ae/pages/carWithLocation/?daily=daily</loc>
+    <loc>https://injazrent.ae/pages/carWithLocation/?daily=daily</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithLocation/?weekly=weekly</loc>
+    <loc>https://injazrent.ae/pages/carWithLocation/?weekly=weekly</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithLocation/?monthly=monthly</loc>
+    <loc>https://injazrent.ae/pages/carWithLocation/?monthly=monthly</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -52,119 +52,119 @@
 
   <!-- Location-based Car Rentals -->
   <url>
-    <loc>https://logicrent.ae/pages/carWithLocation/?location=dubai</loc>
+    <loc>https://injazrent.ae/pages/carWithLocation/?location=dubai</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithLocation/?location=abu-dhabi</loc>
+    <loc>https://injazrent.ae/pages/carWithLocation/?location=abu-dhabi</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithLocation/?location=dubai-marina</loc>
+    <loc>https://injazrent.ae/pages/carWithLocation/?location=dubai-marina</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithLocation/?location=international-city</loc>
+    <loc>https://injazrent.ae/pages/carWithLocation/?location=international-city</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithLocation/?location=business-bay</loc>
+    <loc>https://injazrent.ae/pages/carWithLocation/?location=business-bay</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithLocation/?location=downtown-dubai</loc>
+    <loc>https://injazrent.ae/pages/carWithLocation/?location=downtown-dubai</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithLocation/?location=jvc</loc>
+    <loc>https://injazrent.ae/pages/carWithLocation/?location=jvc</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithLocation/?location=jlt</loc>
+    <loc>https://injazrent.ae/pages/carWithLocation/?location=jlt</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithLocation/?location=jabal-ali</loc>
+    <loc>https://injazrent.ae/pages/carWithLocation/?location=jabal-ali</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithLocation/?location=silicon-oasis</loc>
+    <loc>https://injazrent.ae/pages/carWithLocation/?location=silicon-oasis</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithLocation/?location=jumeirah</loc>
+    <loc>https://injazrent.ae/pages/carWithLocation/?location=jumeirah</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithLocation/?location=zabeel</loc>
+    <loc>https://injazrent.ae/pages/carWithLocation/?location=zabeel</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithLocation/?location=al-quoz</loc>
+    <loc>https://injazrent.ae/pages/carWithLocation/?location=al-quoz</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithLocation/?location=mudon-dubai</loc>
+    <loc>https://injazrent.ae/pages/carWithLocation/?location=mudon-dubai</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithLocation/?location=musaffah</loc>
+    <loc>https://injazrent.ae/pages/carWithLocation/?location=musaffah</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithLocation/?location=yas-island</loc>
+    <loc>https://injazrent.ae/pages/carWithLocation/?location=yas-island</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithLocation/?location=khalifa-city</loc>
+    <loc>https://injazrent.ae/pages/carWithLocation/?location=khalifa-city</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -172,42 +172,42 @@
 
   <!-- Car Categories -->
   <url>
-    <loc>https://logicrent.ae/pages/carWithCategory/?category=luxury</loc>
+    <loc>https://injazrent.ae/pages/carWithCategory/?category=luxury</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithCategory/?category=suv</loc>
+    <loc>https://injazrent.ae/pages/carWithCategory/?category=suv</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithCategory/?category=sedan</loc>
+    <loc>https://injazrent.ae/pages/carWithCategory/?category=sedan</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithCategory/?category=economy</loc>
+    <loc>https://injazrent.ae/pages/carWithCategory/?category=economy</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithCategory/?category=compact</loc>
+    <loc>https://injazrent.ae/pages/carWithCategory/?category=compact</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithCategory/?category=hatchback</loc>
+    <loc>https://injazrent.ae/pages/carWithCategory/?category=hatchback</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -215,49 +215,49 @@
 
   <!-- Car Brands -->
   <url>
-    <loc>https://logicrent.ae/pages/carWithBrand/?brand=toyota</loc>
+    <loc>https://injazrent.ae/pages/carWithBrand/?brand=toyota</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithBrand/?brand=nissan</loc>
+    <loc>https://injazrent.ae/pages/carWithBrand/?brand=nissan</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithBrand/?brand=mercedes</loc>
+    <loc>https://injazrent.ae/pages/carWithBrand/?brand=mercedes</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithBrand/?brand=bmw</loc>
+    <loc>https://injazrent.ae/pages/carWithBrand/?brand=bmw</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithBrand/?brand=honda</loc>
+    <loc>https://injazrent.ae/pages/carWithBrand/?brand=honda</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithBrand/?brand=mazda</loc>
+    <loc>https://injazrent.ae/pages/carWithBrand/?brand=mazda</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/pages/carWithBrand/?brand=kia</loc>
+    <loc>https://injazrent.ae/pages/carWithBrand/?brand=kia</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -265,7 +265,7 @@
 
   <!-- Special Offers -->
   <url>
-    <loc>https://logicrent.ae/pages/carWithBrand/?brand=range-rover</loc>
+    <loc>https://injazrent.ae/pages/carWithBrand/?brand=range-rover</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -273,14 +273,14 @@
 
   <!-- Contact Pages -->
   <url>
-    <loc>https://logicrent.ae/user/contactUs</loc>
+    <loc>https://injazrent.ae/user/contactUs</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/user/aboutUs</loc>
+    <loc>https://injazrent.ae/user/aboutUs</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -288,14 +288,14 @@
 
   <!-- Terms and Privacy -->
   <url>
-    <loc>https://logicrent.ae/user/termsAndCondition</loc>
+    <loc>https://injazrent.ae/user/termsAndCondition</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <url>
-    <loc>https://logicrent.ae/user/privacyPolicy</loc>
+    <loc>https://injazrent.ae/user/privacyPolicy</loc>
     <lastmod>2024-12-19</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>

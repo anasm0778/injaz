@@ -86,7 +86,7 @@ const CarwithCategory = (props: any) => {
       discountedPriceDaily,
       _id,
     } = carDetails;
-    const baseUrl = "https://logicrent.ae/pages/getCarDetails?verify=";
+    const baseUrl = "https://injazrent.ae/pages/getCarDetails?verify=";
     const url = `${baseUrl}${_id}`;
     const whatsappMessage = `Hi, \nI’m contacting you through Injazrent.ae. \nI’d like to rent the discounted ${brand} ${model} ${year} \n${url} \nfor ${discountedPriceDaily} D ${packageDetails}. \nIs it available?`;
     const whatsappLink = `https://wa.me/${

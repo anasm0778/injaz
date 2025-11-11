@@ -121,7 +121,7 @@ const CarWithLocation = () => {
       discountedPriceMonthly,
       _id,
     } = carDetails;
-    const baseUrl = "https://logicrent.ae/pages/getCarDetails?verify=";
+    const baseUrl = "https://injazrent.ae/pages/getCarDetails?verify=";
     const url = `${baseUrl}${_id}`;
     const whatsappMessage = `Hi, \nI'm contacting you through Injazrent.ae. \nI'd like to rent the discounted ${brand} ${model} ${year} \nfor ${
       !monthly

@@ -14,7 +14,7 @@ export const data = [
       address5: "",
     },
     {
-      address1: "Info@logicrent.ae",
+      address1: "Info@injazrent.ae",
       address2: "",
       address3: "",
       address4: "",

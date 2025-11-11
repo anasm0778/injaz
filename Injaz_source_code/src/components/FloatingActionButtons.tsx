@@ -60,7 +60,7 @@ const FloatingActionButtons: React.FC<FloatingActionButtonsProps> = ({ phoneData
 
   const handleWhatsappClick = () => {
     const message = encodeURIComponent(
-      "Hi, \nI'm contacting you through Logicrent.ae. \nI'd like to rent the car on Daily, Weekly and Monthly packages. \nIs it available?"
+      "Hi, \nI'm contacting you through injazrent.ae. \nI'd like to rent the car on Daily, Weekly and Monthly packages. \nIs it available?"
     );
     
     // Remove spaces and special characters from phone number for WhatsApp URL

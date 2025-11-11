@@ -21,7 +21,7 @@ echo "====================="
 if grep -q "http://localhost:4000" src/utils/helper.js; then
     echo "📍 Current: LOCAL DEVELOPMENT (localhost:4000)"
 elif grep -q "https://injazrent.ae/api" src/utils/helper.js; then
-    echo "📍 Current: PRODUCTION (api.logicrent.ae)"
+    echo "📍 Current: PRODUCTION (api.injazrent.ae)"
 else
     echo "📍 Current: AUTO-DETECT (based on hostname)"
 fi
@@ -29,7 +29,7 @@ fi
 echo ""
 echo "Choose environment:"
 echo "1) Local Development (localhost:4000)"
-echo "2) Production (api.logicrent.ae)"
+echo "2) Production (api.injazrent.ae)"
 echo "3) Auto-detect (recommended)"
 echo "4) Show current status"
 echo "5) Exit"
@@ -77,7 +77,7 @@ export const serverUrl = getServerUrl();
 // export const serverUrl = "https://injazrent.ae/api"; // Production
 EOF
         echo "✅ Switched to AUTO-DETECT"
-        echo "📝 Will use localhost:4000 for local development and api.logicrent.ae for production"
+        echo "📝 Will use localhost:4000 for local development and api.injazrent.ae for production"
         ;;
     4)
         echo ""

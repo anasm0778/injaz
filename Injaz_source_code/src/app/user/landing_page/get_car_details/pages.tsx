@@ -243,7 +243,7 @@ const CreatedCar = () => {
       _id,
     } = carDetails;
     const baseUrl =
-      "https://logicrent.ae/user/landing_page/get_car_details?verify=";
+      "https://injazrent.ae/user/landing_page/get_car_details?verify=";
     const url = `${baseUrl}${_id}`;
     const whatsappMessage = `Hi, \nI'm contacting you through Injazrent.ae. \nI'd like to rent the discounted ${brand} ${model} ${year} \n${url} \nfor ${discountedPriceDaily} D ${packageDetails}. \nIs it available?`;
     // Remove spaces and special characters from phone number for WhatsApp URL
@@ -262,7 +262,7 @@ const CreatedCar = () => {
       _id,
     } = carDetails;
     const baseUrl =
-      "https://logicrent.ae/user/landing_page/get_car_details?verify=";
+      "https://injazrent.ae/user/landing_page/get_car_details?verify=";
     const url = `${baseUrl}${_id}`;
     const whatsappMessage = `Hi, \nI’m contacting you through Injazrent.ae. \nI’d like to rent ${brand} ${model} ${year} In ${offerType} \n${url}  \nfor ${fourMonthPriceOf2500Km} D of 2500 KM and ${fourMonthPriceOf5000Km} D of 5000KM Per 4 Month. \nIs it available?`;
     const whatsappLink = `https://wa.me/${
@@ -281,7 +281,7 @@ const CreatedCar = () => {
       _id,
     } = carDetails;
     const baseUrl =
-      "https://logicrent.ae/user/landing_page/get_car_details?verify=";
+      "https://injazrent.ae/user/landing_page/get_car_details?verify=";
     const url = `${baseUrl}${_id}`;
     const whatsappMessage = `Hi, \nI’m contacting you through Injazrent.ae. \nI’d like to rent ${brand} ${model} ${year} In ${offerType} \n${url}  \nfor ${eightMonthPriceOf2500Km} D of 2500 KM and ${eightMonthPriceOf5000Km} D of 5000KM Per 8 Month. \nIs it available?`;
     const whatsappLink = `https://wa.me/${
@@ -300,7 +300,7 @@ const CreatedCar = () => {
       _id,
     } = carDetails;
     const baseUrl =
-      "https://logicrent.ae/user/landing_page/get_car_details?verify=";
+      "https://injazrent.ae/user/landing_page/get_car_details?verify=";
     const url = `${baseUrl}${_id}`;
     const whatsappMessage = `Hi, \nI’m contacting you through Injazrent.ae. \nI’d like to rent ${brand} ${model} ${year} In ${offerType} \n${url}  \nfor ${twelveMonthPriceOf2500Km} D of 2500 KM and ${twelveMonthPriceOf5000Km} D of 5000KM Per 12 Month. \nIs it available?`;
     const whatsappLink = `https://wa.me/${
@@ -317,7 +317,7 @@ const CreatedCar = () => {
   ) => {
     const { brand, model, year, offerType, _id } = carDetails;
     const baseUrl =
-      "https://logicrent.ae/user/landing_page/get_car_details?verify=";
+      "https://injazrent.ae/user/landing_page/get_car_details?verify=";
     const url = `${baseUrl}${_id}`;
 
     const whatsappMessage = `Hi, \nI’m contacting you through Injazrent.ae. \nI’d like to rent ${brand} ${model} ${year} In ${offerType} \n${url} \nfor ${priceOf2500Km} D of 2500 KM and ${priceOf5000Km} D of 5000KM Per ${duration} Month${

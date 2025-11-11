@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://logicrent.ae/sitemap.xml
+Sitemap: https://injazrent.ae/sitemap.xml
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1
